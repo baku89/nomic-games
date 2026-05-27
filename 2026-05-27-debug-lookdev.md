@@ -2,7 +2,20 @@
 status: active
 started_at: '2026-05-27T13:28:38.898Z'
 current_turn: '435393924522311682'
-active_proposal: null
+active_proposal:
+  id: P-1779889729269
+  proposer_id: '435393924522311682'
+  proposer_username: kinakobooster
+  op: enact
+  target_rule_number: null
+  new_rule_text: >-
+    今後、ルールの提案および異議の申し立ては、七五調のみ許される。七五調とは、発言が五文字または七文字で区切られることをいう。各発言は、五文字または七文字ごとに空白を入れなければならない。
+  interpretation: 今後、ルールの提案と異議の申し立てを七五調形式に制限し、その形式を定義する。
+  raw_text: >-
+    これいごは、るーるていあん　もうしたて　しちごちょう　のみゆるされる。しちごちょう　とははつげんが　ごもじななもじ　どちらかで　くぎられる。かくはつげんは　ごもじまた　ななもじごとに　くうはくを　いれるべし。
+  proposed_at: '2026-05-27T13:48:49.269Z'
+  vote_deadline: '2026-05-28T13:48:47.031Z'
+  vote_message_id: '1509191618002161878'
 pending_end: null
 ---
 # debug-lookdev
