@@ -1,9 +1,9 @@
 ---
 discord_channel_id: '1509157460441694338'
 discord_guild_id: '1441092378248216648'
-status: active
+status: completed
 started_at: '2026-05-27T12:12:37.976Z'
-current_turn: '701770597776228514'
+current_turn: null
 active_proposal: null
 ---
 # game-2
@@ -41,3 +41,9 @@ active_proposal: null
 - 言葉遣いは丁寧・簡潔・中立とし、提案内容について Bot から意見しない (解釈の補助のみ)。
 - ルール矛盾に気づいたら Rule 108 に従い若い番号を優先と明示する。
 - 最小人数 3 を推奨するが強制しない (1人だと裁定不能、2人だと機能不全)。
+
+## 勝者
+
+- 勝者なし (強制終了)
+- 終了日時: 2026-05-27T12:19:41.501Z
+- 最終ルール数: 10 条
