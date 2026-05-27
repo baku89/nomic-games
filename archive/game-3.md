@@ -1,11 +1,17 @@
 ---
 discord_channel_id: '1509157460441694338'
 discord_guild_id: '1441092378248216648'
-status: active
+status: completed
 started_at: '2026-05-27T12:24:35.119Z'
-current_turn: '701770597776228514'
+current_turn: null
 active_proposal: null
-pending_end: null
+pending_end:
+  initiated_by: '701770597776228514'
+  winner_id: null
+  winner_mention: null
+  reason: ユーザーがゲームの終了と勝者の可能性について言及しました。現在のルールセットからは勝者を判断できません。
+  confirm_message_id: '1509171135667765418'
+  initiated_at: '2026-05-27T12:27:19.127Z'
 ---
 # game-3
 
@@ -43,3 +49,9 @@ pending_end: null
 - 言葉遣いは丁寧・簡潔・中立とし、提案内容について Bot から意見しない (解釈の補助のみ)。
 - ルール矛盾に気づいたら Rule 108 に従い若い番号を優先と明示する。
 - 最小人数 3 を推奨するが強制しない (1人だと裁定不能、2人だと機能不全)。
+
+## 勝者
+
+- 勝者なし (強制終了) — ユーザーがゲームの終了と勝者の可能性について言及しました。現在のルールセットからは勝者を判断できません。
+- 終了日時: 2026-05-27T12:27:27.839Z
+- 最終ルール数: 11 条
