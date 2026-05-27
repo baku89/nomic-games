@@ -1,9 +1,16 @@
 ---
-status: active
+status: completed
 started_at: '2026-05-27T13:16:40.808Z'
-current_turn: '701770597776228514'
+current_turn: null
 active_proposal: null
-pending_end: null
+pending_end:
+  initiated_by: '701770597776228514'
+  winner_id: null
+  winner_mention: null
+  winner_username: ''
+  reason: プレイヤーが自身の敗北と勝者なしを宣言したため
+  confirm_message_id: '1509185042453237810'
+  initiated_at: '2026-05-27T13:22:34.694Z'
 ---
 # game-session
 
@@ -24,3 +31,9 @@ pending_end: null
 - 109. ルールの解釈に争いが生じた場合、参加者リストにおいて現在の手番プレイヤーの直後にあたるプレイヤー (最後尾の場合は先頭のプレイヤー) を裁定者とする。裁定者の判断は、裁定者を除く全プレイヤーの一致でのみ覆すことができる。
 - 201. 以後漢字を使用してはならない。
 - 202. プレイヤーは自分の手番を自由にスキップできる。
+
+## 勝者
+
+- 勝者なし (強制終了) — プレイヤーが自身の敗北と勝者なしを宣言したため
+- 終了日時: 2026-05-27T13:22:39.834Z
+- 最終ルール数: 11 条
