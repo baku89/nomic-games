@@ -17,8 +17,6 @@
 
 ```yaml
 ---
-discord_channel_id: "..."
-discord_guild_id: "..."
 status: active | completed | paused
 started_at: "2026-05-27T10:00:00Z"
 current_turn: "<Discord User ID>"
@@ -26,6 +24,8 @@ active_proposal: <提案オブジェクト or null>
 pending_end: <終了確認オブジェクト or null>
 ---
 ```
+
+Discord のチャンネル ID は Bot 側のローカルキャッシュ (`<bot>/.cache/channels.json`) に保持され、このリポには出力されない。
 
 ```markdown
 # <game-name>
