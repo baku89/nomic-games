@@ -1,6 +1,15 @@
 ---
-status: active
+status: completed
 started_at: '2026-05-29T16:13:04.243Z'
+current_turn: null
+current_turn_username: null
+active_proposal: null
+pending_end:
+  initiated_by: '701770597776228514'
+  initiated_by_username: baku89
+  reason: プレイヤーがルール違反により敗北を宣言したため。
+  confirm_message_id: '1510302121583448225'
+  initiated_at: '2026-05-30T15:21:27.633Z'
 ---
 # debug-lookdev
 
@@ -23,3 +32,9 @@ started_at: '2026-05-29T16:13:04.243Z'
 - 202. 新ルールは最後に採択されたルールが発行して5分以内にする。間に合わない場合は手番を進め、必要に応じてRule 201に従って必要なルールを撤回する。
 - 203. すべてのるーるはひらがなでせいていされなければならない。
 - 204. このるーるがせいていされてから2てごにせいていされるるーるは、さいたくとどうじにむこうかされる。
+
+## 終了
+
+- 理由: プレイヤーがルール違反により敗北を宣言したため。
+- 終了日時: 2026-05-30T15:21:34.259Z
+- 最終ルール数: 13 条
